@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FE1E4FF1EB279430002616C /* green.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1E4FE1EB279430002616C /* green.jpeg */; };
+		3FE1E5011EB279540002616C /* red.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1E5001EB279540002616C /* red.jpeg */; };
+		3FE1E5091EB27B260002616C /* yeelow.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FE1E5081EB27B260002616C /* yeelow.jpeg */; };
 		3FF091D71EB13192000551E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF091D61EB13192000551E2 /* AppDelegate.swift */; };
 		3FF091D91EB13192000551E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF091D81EB13192000551E2 /* ViewController.swift */; };
 		3FF091DC1EB13192000551E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FF091DA1EB13192000551E2 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3FE1E4FE1EB279430002616C /* green.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = green.jpeg; path = ../../Downloads/green.jpeg; sourceTree = "<group>"; };
+		3FE1E5001EB279540002616C /* red.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = red.jpeg; path = ../../Downloads/red.jpeg; sourceTree = "<group>"; };
+		3FE1E5081EB27B260002616C /* yeelow.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yeelow.jpeg; path = ../../Downloads/yeelow.jpeg; sourceTree = "<group>"; };
 		3FF091D31EB13192000551E2 /* moo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FF091D61EB13192000551E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FF091D81EB13192000551E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +87,9 @@
 				3FF091EA1EB13192000551E2 /* mooTests */,
 				3FF091F51EB13192000551E2 /* mooUITests */,
 				3FF091D41EB13192000551E2 /* Products */,
+				3FE1E5001EB279540002616C /* red.jpeg */,
+				3FE1E4FE1EB279430002616C /* green.jpeg */,
+				3FE1E5081EB27B260002616C /* yeelow.jpeg */,
 			);
 			sourceTree = "<group>";
 		};
@@ -232,9 +241,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FE1E5011EB279540002616C /* red.jpeg in Resources */,
 				3FF091E11EB13192000551E2 /* LaunchScreen.storyboard in Resources */,
 				3FF091DE1EB13192000551E2 /* Assets.xcassets in Resources */,
 				3FF091DC1EB13192000551E2 /* Main.storyboard in Resources */,
+				3FE1E4FF1EB279430002616C /* green.jpeg in Resources */,
+				3FE1E5091EB27B260002616C /* yeelow.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +519,7 @@
 				3FF091FD1EB13192000551E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF091FE1EB13192000551E2 /* Build configuration list for PBXNativeTarget "mooTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +528,7 @@
 				3FF092001EB13192000551E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FF092011EB13192000551E2 /* Build configuration list for PBXNativeTarget "mooUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +537,7 @@
 				3FF092031EB13192000551E2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
