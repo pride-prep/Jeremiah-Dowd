@@ -15,7 +15,7 @@
 		3FFF540E1EB91BC700EA0A7A /* sparkerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF540D1EB91BC700EA0A7A /* sparkerTests.swift */; };
 		3FFF54191EB91BC700EA0A7A /* sparkerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF54181EB91BC700EA0A7A /* sparkerUITests.swift */; };
 		3FFF54271EB91D9600EA0A7A /* spark.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF54261EB91D9600EA0A7A /* spark.jpeg */; };
-		3FFF54291EB91FB600EA0A7A /* question.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF54281EB91FB600EA0A7A /* question.png */; };
+		3FFF542B1EBBB32F00EA0A7A /* question.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFF542A1EBBB32F00EA0A7A /* question.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,7 +50,7 @@
 		3FFF54181EB91BC700EA0A7A /* sparkerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sparkerUITests.swift; sourceTree = "<group>"; };
 		3FFF541A1EB91BC700EA0A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3FFF54261EB91D9600EA0A7A /* spark.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = spark.jpeg; path = ../../../Downloads/spark.jpeg; sourceTree = "<group>"; };
-		3FFF54281EB91FB600EA0A7A /* question.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = question.png; path = ../../../Downloads/question.png; sourceTree = "<group>"; };
+		3FFF542A1EBBB32F00EA0A7A /* question.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = question.jpeg; path = ../../../Downloads/question.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				3FFF53F81EB91BC700EA0A7A /* AppDelegate.swift */,
 				3FFF53FA1EB91BC700EA0A7A /* ViewController.swift */,
 				3FFF53FC1EB91BC700EA0A7A /* Main.storyboard */,
-				3FFF54281EB91FB600EA0A7A /* question.png */,
 				3FFF54261EB91D9600EA0A7A /* spark.jpeg */,
+				3FFF542A1EBBB32F00EA0A7A /* question.jpeg */,
 				3FFF53FF1EB91BC700EA0A7A /* Assets.xcassets */,
 				3FFF54011EB91BC700EA0A7A /* LaunchScreen.storyboard */,
 				3FFF54041EB91BC700EA0A7A /* Info.plist */,
@@ -238,7 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FFF54291EB91FB600EA0A7A /* question.png in Resources */,
+				3FFF542B1EBBB32F00EA0A7A /* question.jpeg in Resources */,
 				3FFF54031EB91BC700EA0A7A /* LaunchScreen.storyboard in Resources */,
 				3FFF54001EB91BC700EA0A7A /* Assets.xcassets in Resources */,
 				3FFF53FE1EB91BC700EA0A7A /* Main.storyboard in Resources */,

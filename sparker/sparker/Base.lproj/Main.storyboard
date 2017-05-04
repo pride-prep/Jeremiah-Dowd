@@ -26,14 +26,15 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSE-99-SJq">
-                                <rect key="frame" x="0.0" y="61" width="375" height="162"/>
+                                <rect key="frame" x="0.0" y="110" width="375" height="126"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <color key="textColor" red="0.98958333333333337" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRr-6F-SNS">
-                                <rect key="frame" x="0.0" y="369" width="375" height="215"/>
+                                <rect key="frame" x="0.0" y="360" width="375" height="215"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Symbol" family="Symbol" pointSize="28"/>
                                 <size key="titleShadowOffset" width="-1" height="1"/>
@@ -45,20 +46,51 @@
                                     <action selector="spark:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RE7-BY-dVw"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="yxM-Sa-bLw">
+                                <rect key="frame" x="0.0" y="244" width="125" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="dvf-Kw-ioE">
+                                <rect key="frame" x="121" y="244" width="123" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="0q0-sj-Rba">
+                                <rect key="frame" x="252" y="244" width="123" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="uw3-Uo-9ld">
+                                <rect key="frame" x="0.0" y="39" width="125" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="VyM-ba-etP">
+                                <rect key="frame" x="121" y="39" width="123" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="question.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="aJq-kr-EXw">
+                                <rect key="frame" x="252" y="39" width="123" height="78"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
                     <connections>
                         <outlet property="idea" destination="FSE-99-SJq" id="D8t-z7-qIF"/>
-                        <outlet property="spark" destination="ZRr-6F-SNS" id="yvJ-kt-fcj"/>
+                        <outlet property="question" destination="yxM-Sa-bLw" id="sjx-CV-0b3"/>
+                        <outlet property="question1" destination="dvf-Kw-ioE" id="2FO-Yb-Hg4"/>
+                        <outlet property="question2" destination="0q0-sj-Rba" id="0Lm-1c-muj"/>
+                        <outlet property="question3" destination="uw3-Uo-9ld" id="731-jQ-2hd"/>
+                        <outlet property="question4" destination="VyM-ba-etP" id="vAO-aI-ybU"/>
+                        <outlet property="question5" destination="aJq-kr-EXw" id="iuQ-vR-Mal"/>
+                        <outlet property="sparkImage" destination="b2A-uO-oFV" id="gsW-5z-uDh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+            <point key="canvasLocation" x="-95" y="119"/>
         </scene>
     </scenes>
     <resources>
+        <image name="question.jpeg" width="275" height="183"/>
         <image name="spark.jpeg" width="320" height="157"/>
     </resources>
 </document>
